@@ -122,7 +122,7 @@ def changing_alan
         }
      }
      
-    programmer_hash[:alan_kay, 
+    programmer_hash[:alan_kay][:known_for]
       
       .each do |name, subject|
       programmer_hash[name].each do |key, value|
