@@ -125,7 +125,7 @@ def changing_alan
     programmer_hash.each do |name, subject|
       programmer_hash[name].each do |key, value|
         if key == :alan_kay
-        programmer_hash[:alan_kay].replace({:known_for => alans_new_info})
+          value = alans_new_info
       end
     end
   end
