@@ -122,10 +122,10 @@ def changing_alan
         }
      }
      
-    programmer_hash.each do |name, subject|
+    programmer_hash[.each do |name, subject|
       programmer_hash[name].each do |key, value|
         if :known_for == "Object Orientation"
-          value = alans_new_info
+          value = alans_new_info]
       end
     end
   end
